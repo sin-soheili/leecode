@@ -19,6 +19,11 @@ An easy tool for extra-coding activities.
 1. Press `Ctrl+Shift+P` to open the Command Palette.
 2. Type `Open Color Picker` and select it.
 
+
+## Credits
+
+The front-end design of this extension is inspired by [Davidson Aguiar's CodePen](https://codepen.io/davidsonaguiar/pen/porWEQa). Thank you for the inspiration!
+
 ## Screenshots
 
 ![Screenshot](images/screenshot.png)
