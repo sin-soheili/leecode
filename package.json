@@ -1,7 +1,7 @@
 {
   "name": "leecode",
   "displayName": "LeeCode",
-  "description": "An easy tool for extra-coding activiies",
+  "description": "An easy tool for extra-coding activities",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
@@ -10,17 +10,17 @@
     "Other"
   ],
   "activationEvents": [
-         "onCommand:extension.openColorPicker"
-    ],
-    "main": "./extension.js",
-    "contributes": {
+    "onCommand:extension.openColorPicker"
+  ],
+  "main": "./extension.js",
+  "contributes": {
     "commands": [
-        {
-            "command": "extension.openColorPicker",
-            "title": "Open Color Picker"
-        }
+      {
+        "command": "extension.openColorPicker",
+        "title": "Open Color Picker"
+      }
     ]
-},
+  },
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
@@ -34,5 +34,10 @@
     "typescript": "^5.4.5",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sin-soheili/leecode"
+  },
+  "homepage": "https://github.com/sin-soheili/leecode"
 }

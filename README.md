@@ -1,24 +1,32 @@
-# Color Picker Extension
+# LeeCode
 
-A simple color picker extension for Visual Studio Code that allows you to pick colors and see their values in different formats.
+An easy tool for extra-coding activities.
 
 ## Features
 
-- Pick colors using a range slider.
-- View color values in RGB and HEX formats.
+- Provides a color picker tool within Visual Studio Code.
+- Allows you to select colors and view their hexadecimal values.
 
-## Commands
+## Installation
 
-- **Show Color Picker**: Opens the color picker webview.
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+3. Search for `LeeCode`.
+4. Click `Install`.
 
 ## Usage
 
-Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and run the command **Color Picker: Show** to open the color picker.
+1. Press `Ctrl+Shift+P` to open the Command Palette.
+2. Type `Open Color Picker` and select it.
 
 ## Screenshots
 
-![Color Picker Screenshot](images/screenshot.png)
+![Screenshot](images/screenshot.png)
+
+## Contributing
+
+Feel free to open issues or submit pull requests to the [GitHub repository](https://github.com/sin-soheili/leecode).
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
